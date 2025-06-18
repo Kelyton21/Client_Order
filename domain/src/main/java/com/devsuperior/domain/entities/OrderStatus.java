@@ -1,7 +1,7 @@
 package com.devsuperior.domain.entities;
 
 public enum OrderStatus {
-    WAIT,
+    WAITING,
     DELIVERED,
     PAID,
     CANCELED

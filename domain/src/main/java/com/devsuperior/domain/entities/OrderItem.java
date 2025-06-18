@@ -27,8 +27,13 @@ public class OrderItem {
     @ManyToOne
     @JoinColumn(name = "product_id")
     private Product product;
+    
     @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "order_id")
     private Order order;
+
+    public Double getSubTotal() {
+        return price * quantity;
+    }
 }

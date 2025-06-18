@@ -42,4 +42,12 @@ public class Order {
         this.status = status;
         this.client = client;
     }
+
+    public Double getTotal() {
+        double sum = 0.0;
+        for (OrderItem item : items) {
+            sum += item.getSubTotal();
+        }
+        return sum;
+    }
 }

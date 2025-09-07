@@ -1,3 +1,3 @@
-# Api de pedidos de um cliente
+# API de pedidos de um cliente
 ## Diagrama de Classes
-<img width="1230" height="507" alt="Image" src="https://github.com/user-attachments/assets/80e1a305-1e8d-4355-9d12-a6a313998bd5" />
+<img width="1243" height="521" alt="Image" src="https://github.com/user-attachments/assets/2853f6e8-23da-4cd6-80a8-500026e66679" />
